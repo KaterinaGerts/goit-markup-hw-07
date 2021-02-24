@@ -1,0 +1,39 @@
+.list-description {
+  width: 270px;
+}
+
+.icon {
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  padding: 25px 100px;
+  border-radius: 4px;
+  background-color: $secondary-bg-color;
+}
+
+.subtitle {
+  margin: 0px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: $title-text-color;
+}
+
+.first-description {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 3.5px;
+  padding-bottom: 3.5px;
+
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+
+  &:last-child {
+    margin-right: 0px;
+  }
+}

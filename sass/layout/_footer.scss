@@ -1,0 +1,43 @@
+.contacts {
+  background-color: $primary-bg-color;
+}
+
+.padding-contacts {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  .box-container {
+    display: flex;
+    align-items: baseline;
+  }
+}
+
+.adress {
+  .location {
+    margin: 0px;
+    margin-bottom: 9px;
+    margin-right: 70px;
+
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: $secondary-text-color;
+  }
+
+  .address-color {
+    display: block;
+    margin-bottom: 9px;
+    text-decoration: none;
+
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: $accent-text-link-color;
+
+    &:last-child {
+      margin-bottom: 0px;
+    }
+  }
+}
